@@ -12,3 +12,11 @@ function mostrar()
     //display:block
     caja.style.display = 'block';
 }
+function todo(){
+    if( caja.style.display == 'block') {
+        ocultar();
+    }
+    else{
+        mostrar();
+    }
+}

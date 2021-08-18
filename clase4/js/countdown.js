@@ -24,7 +24,7 @@ function countdown()
     var dias = Math.floor( horas/24 );
         console.log(dias);
 
-    //calculamos los sobrabtes de horas, minutos y segundos
+    //calculamos los sobrantes de horas, minutos y segundos
     // operador módulo %
     horas   = horas%24;
     if( horas < 10 ){
